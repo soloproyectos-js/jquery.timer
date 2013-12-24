@@ -1,5 +1,5 @@
 /**
- * This file contains the jQuery.timer plugin.
+ * This file contains the jQuery.timer v1.0.3 plugin.
  * 
  * Requires jQuery v1.7.2
  * 
@@ -237,20 +237,22 @@
                 self._count++;
                 self._callback.apply(self);
                 
-                self._maxCount--;
-                if (self._maxCount > 0) {
-                    self._interval = setInterval(function () {
-                        self._lastTime = self.getCurrentTime();
-                        self._count++;
-                        self._callback.apply(self);
-                        
-                        self._maxCount--;
-                        if (self._maxCount <= 0) {
-                            self.stop();
-                        }
-                    }, self._delay);
-                } else {
-                    self.stop();
+                if (self.isRunning()) {
+                    self._maxCount--;
+                    if (self._maxCount > 0) {
+                        self._interval = setInterval(function () {
+                            self._lastTime = self.getCurrentTime();
+                            self._count++;
+                            self._callback.apply(self);
+                            
+                            self._maxCount--;
+                            if (self._maxCount <= 0) {
+                                self.stop();
+                            }
+                        }, self._delay);
+                    } else {
+                        self.stop();
+                    }
                 }
             }, this.getRemainingTime());
             this._pausedTime = (new Date()).getTime() - this._currentTime;

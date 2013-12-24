@@ -1,5 +1,5 @@
 {
-  "name": "timer",
+  "name": "simple-timer",
   "title": "jQuery Timer Plugin",
   "description": "Another jQuery timer plugin.",
   "keywords": [
@@ -7,7 +7,7 @@
     "timer",
     "plugins"
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Gonzalo Chumillas",
     "url": "https://github.com/soloproyectos"
