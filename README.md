@@ -29,9 +29,10 @@ $.timer(1000, function() {
 
 **Important methods:**
 
-1. start()  : starts the timer
-2. stop()   : stops the timer
-3. play()   : resumes the timer
-4. pause()  : pause the timer
-5. toggle() : resumes or pauses the timer
-6. once()   : starts and fires only one time
+1. start()    : starts the timer
+2. stop()     : stops the timer
+3. play()     : resumes the timer
+4. pause()    : pause the timer
+5. toggle()   : resumes or pauses the timer
+6. once()     : starts and fires only one time
+7. setDelay() : sets the delay
