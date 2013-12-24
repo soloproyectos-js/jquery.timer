@@ -1,7 +1,7 @@
 jquery.timer
 ============
 
-This is a jQuery timer plugin.
+Another jQuery timer plugin.
 
 **Examples:**
 
