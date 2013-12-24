@@ -11,7 +11,7 @@
     var namespace = 'timer';
     
     /**
-     * Timer class.
+     * Timer constructor.
      * 
      * @param {Number}   delay    Delay
      * @param {Fucntion} callback Callback function
