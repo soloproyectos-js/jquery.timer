@@ -10,7 +10,7 @@ This is a jQuery timer plugin.
 $.timer(0, function () {
     this.setDelay(1000);
     console.log('fired!');
-}).stop();
+}).start();
 ```
 
 ```JavaScript
