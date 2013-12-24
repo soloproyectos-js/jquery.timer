@@ -14,14 +14,14 @@ $.timer(0, function () {
 ```
 
 ```JavaScript
-// the timer is fired only 5 times
+// the timer is fired 5 times
 $.timer(1000, function () {
     console.log(this.getCount());
 }).start(5);
 ```
 
 ```JavaScript
-// fires the timer just one time
+// the timer is fired only one time
 $.timer(1000, function() {
     console.log('just one time');
 }).once();
