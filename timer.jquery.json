@@ -1,18 +1,34 @@
 {
-    "name": "timer",
-    "version": "1.0.0",
-    "title": "jQuery Timer Plugin",
-    "author": {
-        "name": "Gonzalo Chumillas",
-        "url": "http://www.soloproyectos.com"
-    },
-    "licenses": [
-        {
-            "type": "BSD 2-Clause License",
-            "url": "https://raw.github.com/soloproyectos/jquery.timer/master/LICENSE"
-        }
-    ],
-    "dependencies": {
-        "jquery": ">=1.7.2"
+  "name": "timer",
+  "title": "jQuery Timer Plugin",
+  "description": "Another jQuery timer plugin.",
+  "keywords": [
+    "jquery",
+    "timer",
+    "plugins"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Gonzalo Chumillas",
+    "url": "https://github.com/soloproyectos"
+  },
+  "maintainers": [
+    {
+      "name": "Gonzalo Chumillas",
+      "url": "https://github.com/soloproyectos"
     }
+  ],
+  "licenses": [
+    {
+      "type": "BSD 2-Clause License",
+      "url": "https://raw.github.com/soloproyectos/jquery.timer/master/LICENSE"
+    }
+  ],
+  "bugs": "https://github.com/soloproyectos/jquery.timer/issues",
+  "homepage": "https://github.com/soloproyectos/jquery.timer",
+  "docs": "https://github.com/soloproyectos/jquery.timer#readme",
+  "download": "https://github.com/soloproyectos/jquery.timer/releases",
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
 }
